@@ -19,6 +19,7 @@ class CreateVisitorlogsTable extends Migration
             $table->string('visitor_address')->nullable();
             $table->string('visitor_phone_number')->nullable();
             $table->string('staff_to_see')->nullable();
+            $table->string('staff_company')->nullable();
             $table->integer('tag_number')->nullable();
             $table->string('signature')->nullable();
             $table->enum('purpose', ['Personal', 'Official', 'Meeting', 'Others'])->default('Official')->nullable();

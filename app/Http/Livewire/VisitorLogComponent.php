@@ -14,14 +14,15 @@ class VisitorLogComponent extends Component
     public $tag_number;
     public $signature;
     public $purpose;
+    public $staff_company;
     public $visitor_time_out;
 
-    public $totalSteps = 3;
+    public $totalSteps = 2;
     public $currentStep = 1;
 
     public function mount()
     {
-        $this->currentStep=1;
+        $this->currentStep===1;
     }
 
     public function render()
@@ -31,11 +32,48 @@ class VisitorLogComponent extends Component
 
     public function increaseStep()
     {
+        $this->resetErrorBag();
+        $this->validateFormData();
+
         $this->currentStep++;
+        if ($this->currentStep > $this->totalSteps) {
+            $this->currentStep === $this->totalSteps;
+        }
     }
 
     public function decreaseStep()
     {
+        $this->resetErrorBag();
+
         $this->currentStep--;
+        if ($this->currentStep < 1) {
+            $this->currentStep = 1;
+        }
+    }
+
+    public function validateFormData()
+    {
+        if ($this->currentStep === 1) {
+            $this->validate([
+                'visitor_name' => 'required|string',
+                'visitor_address' => 'required|string',
+                'visitor_phone_number' => 'required|string',
+                'purpose' =>'required|string',
+            ]);
+        }
+    }
+
+    public function save()
+    {
+        $this->resetErrorBag();
+        if ($this->currentStep === 2) {
+            $this->validate([
+                'tag_number' => 'required|numeric|max:3',
+                'staff_to_see' => 'required|string',
+                'signature' => 'required|string',
+                'staff_company' => 'required|string',
+            ]);
+            \dd('data');
+        }
     }
 }

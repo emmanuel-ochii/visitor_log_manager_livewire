@@ -12,6 +12,6 @@ class Visitorlog extends Model
     protected $primary_key = 'id';
 
     protected $fillable =[
-    'visitor_name','visitor_address','visitor_phone_number','staff_to_see','tag_number','signature','purpose','visitor_time_out'
+    'visitor_name','visitor_address','visitor_phone_number','staff_to_see','tag_number','signature','purpose','visitor_time_out','staff_company'
     ];
 }
