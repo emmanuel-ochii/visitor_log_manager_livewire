@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\WelcomeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -12,9 +13,4 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::get('/home', [UserController::class,'dashboard'])->name('dashboard');
-
-
-Route::get('/', function () {
-    return view('welcome')->name('welcome');
-});
+Route::get('/', [WelcomeController::class,'welcome'])->name('welcome');

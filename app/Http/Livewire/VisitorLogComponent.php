@@ -91,7 +91,7 @@ class VisitorLogComponent extends Component
             ]);
         }
 
-        Visitorlog::insert([
+        Visitorlog::create([
             'visitor_name' => $this->visitor_name,
             'visitor_address' => $this->visitor_address,
             'visitor_phone_number' => $this->visitor_phone_number,
@@ -111,9 +111,10 @@ class VisitorLogComponent extends Component
 
         $this->dispatchBrowserEvent('swal:modal', [
             'type' => 'success',
-            'message' => 'Visitor Logged In Successfully!',
-            'text' => request()->email,
+            'message' => 'Welcome Data Logged Successfully!',
+            'text' => '',
         ]);
+
         $this->reset();
 
         // return redirect()->route('registration.success', $data);

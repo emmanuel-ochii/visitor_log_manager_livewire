@@ -26,20 +26,17 @@
                     <div class="create-boats-content">
                         <div class="sec-title black">
                             <div class="icon"><span class="flaticon-rudder"></span></div>
-                            <p>create your</p>
                             <div class="big-title black">
-                                <h1>Tailor-Made Boats</h1>
+                                <h1>About Us</h1>
                             </div>
                         </div>
                         <div class="inner-content">
-                            <div class="img-box">
-                                <img src="images/resources/create-boats-img.jpg" alt="Awesome Image">
-                            </div>
-                            <div class="text-box">
-                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have in
-                                    some form by injected humour words which don't look even slightly quis ullamco laboris
-                                    nisi ut aliquip.</p>
+                            <div class="text-box pl-0">
+                                <p>Tenece Professional Services Limited (Tenece) is a multi-competency enterprise transformation and technology-consulting firm that combines expertise and capabilities across many industries and business functions to deliver superior value to its clients. Tenece collaborates with its clients, both in the private and public sectors, to build high performance enterprises.</p>
                                 <a class="btn-one" href="#">Learn More</a>
+                            </div>
+                            <div class="img-box">
+                                <img src="{{asset('images/slides/CORE-V.png')}}" alt="Awesome Image" style="width: 300px" >
                             </div>
                         </div>
                     </div>
@@ -49,22 +46,22 @@
                         <ul>
                             <li>
                                 <div class="icon"><span class="flaticon-team"></span></div>
-                                <h3><a href="#"> Get your family or a<br> group of friends</a></h3>
+                                <h3><a href="#"> Best efforts <br> 100% of the time</a></h3>
                                 <div class="count">01</div>
                             </li>
                             <li>
-                                <div class="icon"><span class="flaticon-boat-2"></span></div>
-                                <h3><a href="#">Pick the yacht of<br> your preference</a></h3>
+                                <div class="icon"><span class="flaticon-clock"></span></div>
+                                <h3><a href="#">Around the <br> clock response time</a></h3>
                                 <div class="count">02</div>
                             </li>
                             <li>
                                 <div class="icon"><span class="flaticon-gps"></span></div>
-                                <h3><a href="#">Let’s choose your<br> destination</a></h3>
+                                <h3><a href="#">Offices located <br> worldwide</a></h3>
                                 <div class="count">03</div>
                             </li>
                             <li>
                                 <div class="icon"><span class="flaticon-beach"></span></div>
-                                <h3><a href="#">Sail, Your’re ready to<br> enjoy now</a></h3>
+                                <h3><a href="#">Giving you peace<br> while we build your bussiness</a></h3>
                                 <div class="count">04</div>
                             </li>
                         </ul>

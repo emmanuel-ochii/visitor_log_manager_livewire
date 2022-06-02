@@ -48,7 +48,7 @@
 .sidebar-search-box .search-form input[type="text"]:focus + button,
 .sidebar-search-box .search-form button:hover,
 .contact-information-box .social-links-style1 li a:hover i{
-  background-color: #33c7c5;    
+  background-color: #33c7c5;
 }
 
 /** border-color **/
@@ -59,7 +59,7 @@
 .contact-form form input[type="email"]:focus,
 .contact-form form textarea:focus,
 .blog-single-area .tag-box .right .social-links-style1 li a:hover i{
-  border-color: #33c7c5;    
+  border-color: #33c7c5;
 }
 .contact-information-box .social-links-style1 li a:hover i {
   border: 1px solid #33c7c5;
@@ -101,7 +101,7 @@
 .sidebar-search-box .search-form button,
 .blog-single-area .inner-comment-box .single-comment-box .text-holder .reply-button a,
 .contact-information-box .contact-us li a{
-  color: #0c67c4;
+  color: #00458e;
 }
 
 /** background **/
@@ -136,7 +136,7 @@
 
 
 .overlay-style-one.bg1{
-  background-color: rgba(11, 103, 196, 0.80);    
+  background-color: rgba(11, 103, 196, 0.80);
 }
 
 .single-destination-box-style2 .img-holder .overlay-content {
@@ -157,7 +157,7 @@
 .breadcrumb-area .breadcrumb-menu ul li a:hover,
 .breadcrumb-area .breadcrumb-menu ul li.active,
 .yachts-details-area .nav-link li#slider-next a:hover i{
-  color: #ffe701;
+  color: rgb(3,36,71);
 }
 
 /** background **/
@@ -166,14 +166,14 @@
 .scroll-top:hover,
 .benefits-content ul li:hover .icon-holder,
 .single-destination-box .img-holder:before,
-.single-footer-widget .subscribe-form input[type="email"]:focus + button, 
+.single-footer-widget .subscribe-form input[type="email"]:focus + button,
 .single-footer-widget .subscribe-form button:hover,
 .boats-skipper-form-area .boats-skipper-form button,
 .video-holder-box .icon .inner a span:before,
 .single-destination-box-style2 .img-holder .inner .zoom-button a span:before,
 .single-history-box .img-box .year-box h1,
 .single-testimonial-style1 .img-box .quote-icon{
-  background-color: #ffe701;
+  background-color: #a2a2a2;
 }
 
 /** border-color **/

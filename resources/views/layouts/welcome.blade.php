@@ -67,8 +67,8 @@
                         </div>
                         <div class="header-upper-middle-style2 max-width float-left clearfix">
                             <div class="logo">
-                                <a href="{{route('welcome')}}"><img src="{{ asset('images/slides/tenece-logo.svg') }}"
-                                        alt="Tenece Logo" title="Tenece"></a>
+                                <a href="{{ route('welcome') }}">
+                                    <img src="{{ asset('images/slides/tenece-logo.svg') }}" alt="Tenece Logo" title="Tenece" style="width: 250px"></a>
                             </div>
                         </div>
                         <div class="header-upper-right-style2 max-width float-right clearfix">
@@ -101,17 +101,17 @@
                                 <nav class="main-menu style2 navbar-expand-md navbar-light">
                                     <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                         <ul class="navigation clearfix">
-                                            <li><a href="index.html">Home Page 01</a></li>
-                                            <li><a href="about.html">About</a></li>
-                                            <li><a href="services.html">Services</a></li>
+                                            <li><a href="{{route('welcome')}}">Home</a></li>
+                                            <li><a href="#">About</a></li>
+                                            <li><a href="#">Services</a></li>
                                             <li class="dropdown"><a href="#">Our Projects</a>
                                                 <ul>
-                                                    <li><a href="yachts.html">PIEWA Projects</a></li>
-                                                    <li><a href="yachts-details.html">Cloe Projects</a></li>
+                                                    <li><a href="#">PIEWA Projects</a></li>
+                                                    <li><a href="#">Cloe Projects</a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="destinations.html">Offices</a></li>
-                                            <li><a href="contact.html">Contact</a></li>
+                                            <li><a href="#">Offices</a></li>
+                                            <li><a href="#">Contact</a></li>
                                         </ul>
                                     </div>
                                 </nav>
@@ -146,8 +146,8 @@
                     <div class="clearfix">
                         <!--Logo-->
                         <div class="logo float-left">
-                            <a href="index.html" class="img-responsive"><img
-                                    src="{{ asset('images/slides/tenece-logo.svg') }}" alt="" title="Tenece"></a>
+                            <a href="index.html" class="img-responsive">
+                                <img src="{{ asset('images/slides/tenece-logo.svg') }}" alt="Tenece Logo" title="Tenece" style="width: 200px"></a>
                         </div>
                         <!--Right Col-->
                         <div class="right-col float-right">
@@ -200,9 +200,8 @@
                         <div class="auto-container">
                             <div class="content">
                                 <div class="title thm-clr1">Professional Services At It's Best</div>
-                                <div class="big-title">Yacht & Boat<br> Services</div>
-                                <div class="text">The widest range of boats, in 800 destinations, from the<br>
-                                    Mediterranean to the Caribbean.</div>
+                                <div class="big-title">Deep & Wide<br> Understanding</div>
+                                <div class="text">With its tested methodologies and best practices, its clients get best-fit, quality solutions that meet their business demands.</div>
                                 <div class="btn-box">
                                     <a href="#">Discover More</a>
                                 </div>
@@ -215,9 +214,8 @@
                         <div class="auto-container">
                             <div class="content">
                                 <div class="title thm-clr1">Come & Let’s Enjoy Our Best</div>
-                                <div class="big-title">Yacht & Boat<br> Services</div>
-                                <div class="text">The widest range of boats, in 800 destinations, from the<br>
-                                    Mediterranean to the Caribbean.</div>
+                                <div class="big-title">Operational<br> Objectives</div>
+                                <div class="text">To provide first class, unique and premium solutions geared towards meeting the business objectives of clients through the use of appropriate and cost effective technologies.</div>
                                 <div class="btn-box">
                                     <a href="#">Discover More</a>
                                 </div>
@@ -229,10 +227,9 @@
                         <div class="image-layer" style="background-image:url(images/slides/slide-6.jpeg)"></div>
                         <div class="auto-container">
                             <div class="content">
-                                <div class="title thm-clr1">Come & Let’s Enjoy Our Best</div>
-                                <div class="big-title">Yacht & Boat<br> Services</div>
-                                <div class="text">The widest range of boats, in 800 destinations, from the<br>
-                                    Mediterranean to the Caribbean.</div>
+                                <div class="title thm-clr1">Professional Services At It's Best</div>
+                                <div class="big-title">Deep & Wide<br> Understanding</div>
+                                <div class="text">With its tested methodologies and best practices, its clients get best-fit, quality solutions that meet their business demands.</div>
                                 <div class="btn-box">
                                     <a href="#">Discover More</a>
                                 </div>
@@ -245,9 +242,8 @@
                         <div class="auto-container">
                             <div class="content">
                                 <div class="title thm-clr1">Come & Let’s Enjoy Our Best</div>
-                                <div class="big-title">Yacht & Boat<br> Services</div>
-                                <div class="text">The widest range of boats, in 800 destinations, from the<br>
-                                    Mediterranean to the Caribbean.</div>
+                                <div class="big-title">Operational<br> Objectives</div>
+                                <div class="text">To provide first class, unique and premium solutions geared towards meeting the business objectives of clients through the use of appropriate and cost effective technologies.</div>
                                 <div class="btn-box">
                                     <a href="#">Discover More</a>
                                 </div>
@@ -285,60 +281,46 @@
     </div>
 
 
-    <script src="{{asset('js/jquery.js')}}"></script>
-    <script src="{{asset('js/appear.js')}}"></script>
-    <script src="{{asset('js/bootstrap.bundle.min.js')}}"></script>
-    <script src="{{asset('js/bootstrap-select.min.js')}}"></script>
-    <script src="{{asset('js/isotope.js')}}"></script>
-    <script src="{{asset('js/jquery.bootstrap-touchspin.js')}}"></script>
-    <script src="{{asset('js/jquery.countTo.js')}}"></script>
-    <script src="{{asset('js/jquery.easing.min.js')}}"></script>
-    <script src="{{asset('js/jquery.enllax.min.js')}}"></script>
-    <script src="{{asset('js/jquery.fancybox.js')}}"></script>
-    <script src="{{asset('js/jquery.mixitup.min.js')}}"></script>
-    <script src="{{asset('js/jquery.paroller.min.js')}}"></script>
-    <script src="{{asset('js/owl.js')}}"></script>
-    <script src="{{asset('js/validation.js')}}"></script>
-    <script src="{{asset('js/wow.js')}}"></script>
-    <script src="{{asset('js/aos.js')}}"></script>
-    <script src="{{asset('js/scrollbar.js')}}"></script>
+    <script src="{{ asset('js/jquery.js') }}"></script>
+    <script src="{{ asset('js/appear.js') }}"></script>
+    <script src="{{ asset('js/bootstrap.bundle.min.js') }}"></script>
+    <script src="{{ asset('js/bootstrap-select.min.js') }}"></script>
+    <script src="{{ asset('js/isotope.js') }}"></script>
+    <script src="{{ asset('js/jquery.bootstrap-touchspin.js') }}"></script>
+    <script src="{{ asset('js/jquery.countTo.js') }}"></script>
+    <script src="{{ asset('js/jquery.easing.min.js') }}"></script>
+    <script src="{{ asset('js/jquery.enllax.min.js') }}"></script>
+    <script src="{{ asset('js/jquery.fancybox.js') }}"></script>
+    <script src="{{ asset('js/jquery.mixitup.min.js') }}"></script>
+    <script src="{{ asset('js/jquery.paroller.min.js') }}"></script>
+    <script src="{{ asset('js/owl.js') }}"></script>
+    <script src="{{ asset('js/validation.js') }}"></script>
+    <script src="{{ asset('js/wow.js') }}"></script>
+    <script src="{{ asset('js/aos.js') }}"></script>
+    <script src="{{ asset('js/scrollbar.js') }}"></script>
 
-    <script src="{{asset('assets/language-switcher/jquery.polyglot.language.switcher.js')}}"></script>
-    <script src="{{asset('assets/timepicker/timePicker.js')}}"></script>
-    <script src="{{asset('assets/html5lightbox/html5lightbox.js')}}"></script>
+    <script src="{{ asset('assets/language-switcher/jquery.polyglot.language.switcher.js') }}"></script>
+    <script src="{{ asset('assets/timepicker/timePicker.js') }}"></script>
+    <script src="{{ asset('assets/html5lightbox/html5lightbox.js') }}"></script>
     <!-- jQuery ui js -->
-    <script src="{{asset('assets/jquery-ui-1.11.4/jquery-ui.js')}}"></script>
+    <script src="{{ asset('assets/jquery-ui-1.11.4/jquery-ui.js') }}"></script>
 
     <!--Livewire Scripts -->
     @livewireScripts
     <script>
-
         window.addEventListener('swal:modal', event => {
             swal({
-              title: event.detail.message,
-              text: event.detail.text,
-              icon: event.detail.type,
+                title: event.detail.message,
+                text: event.detail.text,
+                icon: event.detail.type,
             });
         });
 
-        window.addEventListener('swal:confirm', event => {
-            swal({
-              title: event.detail.message,
-              text: event.detail.text,
-              icon: event.detail.type,
-              buttons: true,
-              dangerMode: true,
-            })
-            .then((willDelete) => {
-              if (willDelete) {
-                window.livewire.emit('remove');
-              }
-            });
-        });
-         </script>
+        
+    </script>
 
     <!-- thm custom script -->
-    <script src="{{asset('js/custom.js')}}"></script>
+    <script src="{{ asset('js/custom.js') }}"></script>
 
 
 
