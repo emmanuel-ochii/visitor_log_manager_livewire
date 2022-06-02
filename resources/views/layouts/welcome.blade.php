@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="{{ asset('css/responsive.css') }}">
     <!--Livewire Styles -->
     @livewireStyles
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('images/favicon/apple-touch-icon.png') }}">
     <link rel="icon" type="image/png" href="{{ asset('images/favicon/favicon-32x32.png') }}" sizes="32x32">
@@ -253,7 +254,7 @@
                 <div class="container">
                     <div class="outer-box">
                         <div class="copyright-text">
-                            <p>© Copyright 2019 by <a href="#">Yacher</a></p>
+                            <p>© Copyright 2022 by <a href="http://www.tenece.com">Tenece</a> Professional Services</p>
                         </div>
                     </div>
                 </div>
@@ -295,6 +296,31 @@
 
     <!--Livewire Scripts -->
     @livewireScripts
+    <script>
+
+        window.addEventListener('swal:modal', event => {
+            swal({
+              title: event.detail.message,
+              text: event.detail.text,
+              icon: event.detail.type,
+            });
+        });
+
+        window.addEventListener('swal:confirm', event => {
+            swal({
+              title: event.detail.message,
+              text: event.detail.text,
+              icon: event.detail.type,
+              buttons: true,
+              dangerMode: true,
+            })
+            .then((willDelete) => {
+              if (willDelete) {
+                window.livewire.emit('remove');
+              }
+            });
+        });
+         </script>
 
     <!-- thm custom script -->
     <script src="{{asset('js/custom.js')}}"></script>

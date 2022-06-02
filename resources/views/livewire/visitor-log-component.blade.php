@@ -85,7 +85,7 @@
             @if ($currentStep === 2)
             <div class="col-md-3 text-left">
                 <button type="submit" class="btn btn-success btn-lg">Submit</button>
-            </div>
+            </div>  
             @endif
 
         </div>
