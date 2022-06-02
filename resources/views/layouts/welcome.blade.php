@@ -67,7 +67,7 @@
                         </div>
                         <div class="header-upper-middle-style2 max-width float-left clearfix">
                             <div class="logo">
-                                <a href="index.html"><img src="{{ asset('images/resources/logo.png') }}"
+                                <a href="{{route('welcome')}}"><img src="{{ asset('images/slides/tenece-logo.svg') }}"
                                         alt="Tenece Logo" title="Tenece"></a>
                             </div>
                         </div>
@@ -147,7 +147,7 @@
                         <!--Logo-->
                         <div class="logo float-left">
                             <a href="index.html" class="img-responsive"><img
-                                    src="{{ asset('images/resources/logo.png') }}" alt="" title="Tenece"></a>
+                                    src="{{ asset('images/slides/tenece-logo.svg') }}" alt="" title="Tenece"></a>
                         </div>
                         <!--Right Col-->
                         <div class="right-col float-right">
