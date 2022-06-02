@@ -196,7 +196,7 @@
                 <div class="banner-carousel owl-theme owl-carousel text-center">
                     <!-- Slide -->
                     <div class="slide">
-                        <div class="image-layer" style="background-image:url(images/slides/v2-1.jpg)"></div>
+                        <div class="image-layer" style="background-image:url(images/slides/slide-4.jpeg)"></div>
                         <div class="auto-container">
                             <div class="content">
                                 <div class="title thm-clr1">Professional Services At It's Best</div>
@@ -211,7 +211,7 @@
                     </div>
                     <!-- Slide -->
                     <div class="slide">
-                        <div class="image-layer" style="background-image:url(images/slides/v2-2.jpg)"></div>
+                        <div class="image-layer" style="background-image:url(images/slides/slide-2.jpeg)"></div>
                         <div class="auto-container">
                             <div class="content">
                                 <div class="title thm-clr1">Come & Let’s Enjoy Our Best</div>
@@ -226,7 +226,22 @@
                     </div>
                     <!-- Slide -->
                     <div class="slide">
-                        <div class="image-layer" style="background-image:url(images/slides/v2-3.jpg)"></div>
+                        <div class="image-layer" style="background-image:url(images/slides/slide-6.jpeg)"></div>
+                        <div class="auto-container">
+                            <div class="content">
+                                <div class="title thm-clr1">Come & Let’s Enjoy Our Best</div>
+                                <div class="big-title">Yacht & Boat<br> Services</div>
+                                <div class="text">The widest range of boats, in 800 destinations, from the<br>
+                                    Mediterranean to the Caribbean.</div>
+                                <div class="btn-box">
+                                    <a href="#">Discover More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide -->
+                    <div class="slide">
+                        <div class="image-layer" style="background-image:url(images/slides/slide-3.jpeg)"></div>
                         <div class="auto-container">
                             <div class="content">
                                 <div class="title thm-clr1">Come & Let’s Enjoy Our Best</div>
